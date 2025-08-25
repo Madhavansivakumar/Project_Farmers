@@ -1,0 +1,20 @@
+{
+  "name": "project-farmers",
+  "version": "1.0.0",
+  "description": "Farmers Agricultural Rate Monitoring and Enhanced Reporting Software",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\" \"npm run websocket\"",
+    "server": "nodemon backend/app.js",
+    "client": "cd frontend && npm start",
+    "websocket": "node backend/websocket-server.js",
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build"
+  },
+  "dependencies": {
+    "concurrently": "^7.0.0",
+    "react-router-dom": "^7.2.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

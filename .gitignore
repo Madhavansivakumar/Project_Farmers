@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+node_modules/
+backend/uploads/
+.env
+=======
 # Logs
 logs
 *.log
@@ -137,3 +142,5 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+>>>>>>> 99003cd4d2729933e06a7fe834f70ca50e7d3167
+node_modules/
